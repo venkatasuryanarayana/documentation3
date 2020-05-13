@@ -40,7 +40,7 @@ More then 1200px | col-xl-*
 * .container-fluid, which is width: 100% at all breakpoints
 
 ## Grid:
-<img src="grid table.png" alt="Grid image"/>
+<img src="grid table.PNG" alt="Grid image"/>
 
 
 ## Example

@@ -35,6 +35,17 @@ Between 768px to 992px | col-md-*
 Between 992px to 1200px | col-lg-*
 More then 1200px | col-xl-*
 
+## Container:
+* .container, which sets a max-width at each responsive breakpoint
+* .container-fluid, which is width: 100% at all breakpoints
+
+## Grid:
+<img src="grid table.png" alt="Grid image"/>
+
+ 
+
+
+
 ## Example
 col-sm-*:
 
@@ -75,4 +86,78 @@ code:
   </body>
 </html>
 
- * Here it occupies into threee equal parts which is equalto 12   
+ * The above example creates three equal-width columns on small, medium,      large, and extra large devices using our predefined grid classes. Those    columns are centered in the page with the parent .container.
+ 
+## Equal-width multi-line
+* Create equal-width columns that span multiple lines by inserting a .w-100 where you want the columns to break to a new line. Make the breaks responsive by mixing .w-100 with some responsive display utilities.
+
+<div class="container">
+  <div class="row">
+    <div class="col">col</div>
+    <div class="col">col</div>
+    <div class="w-100"></div>
+    <div class="col">col</div>
+    <div class="col">col</div>
+  </div>
+</div>
+
+## Responsive classes
+* Bootstrap’s grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.
+
+## All breakpoints
+ * For grids that are the same from the smallest of devices to the largest, use the .col and .col-* classes. Specify a numbered class when you need a particularly sized column; otherwise, feel free to stick to .col.
+ 
+ <div class="container">
+  <div class="row">
+    <div class="col">col</div>
+    <div class="col">col</div>
+    <div class="col">col</div>
+    <div class="col">col</div>
+  </div>
+  <div class="row">
+    <div class="col-8">col-8</div>
+    <div class="col-4">col-4</div>
+  </div>
+</div>
+
+## Stacked to horizontal:
+* Using a single set of .col-sm-* classes, you can create a basic grid system that starts out stacked and becomes horizontal at the small breakpoint (sm).
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">col-sm-8</div>
+    <div class="col-sm-4">col-sm-4</div>
+  </div>
+  <div class="row">
+    <div class="col-sm">col-sm</div>
+    <div class="col-sm">col-sm</div>
+    <div class="col-sm">col-sm</div>
+  </div>
+</div>
+
+
+
+<div class="row" style="justify-content:center">
+      <div class="col-md-4 col-sm-8 col-lg-4">
+        <div class="card">
+          <div class="card-header bg-success text-light"> Card header</div>
+           <div class="card-body"> Card body</div>
+          <div class="card-footer">card footer</div>
+        </div>
+     </div>
+     <div class="col-md-4 col-sm-8 col-lg-4">
+        <div class="card-header"> Card header</div>
+        <div class="card-body"> Card body</div>
+        <div class="card-footer">card footer</div>
+     </div>
+</div>
+    
+  In col-lg:
+  
+  In col-md:
+  
+
+
+
+
+ 

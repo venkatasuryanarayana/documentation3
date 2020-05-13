@@ -83,6 +83,13 @@ code:
   </body>
 </html>
 ```
+* All columns having equal with
+
+ <img src="1.PNG" alt="image"/>
+ 
+ * Changing columns width:
+ 
+  <img src="2.PNG" alt="image"/>
 
  * The above example creates three equal-width columns on small, medium,      large, and extra large devices using our predefined grid classes. Those    columns are centered in the page with the parent .container.
  
@@ -99,6 +106,8 @@ code:
   </div>
 </div>
 ```
+
+ <img src="equalwidth.PNG" alt="image"/>
 
 ## Responsive classes
 * Bootstrap’s grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.
@@ -120,6 +129,8 @@ code:
 </div>
 ```
 
+ <img src="breakpoints.PNG" alt="image"/>
+
 ## Stacked to horizontal:
 * Using a single set of .col-sm-* classes, you can create a basic grid system that starts out stacked and becomes horizontal at the small breakpoint (sm).
 
@@ -135,6 +146,8 @@ code:
   </div>
 </div>
 ```
+
+ <img src="stacked.PNG" alt="image"/>
 
 
 

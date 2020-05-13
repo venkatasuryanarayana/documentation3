@@ -155,14 +155,14 @@ code:
 ```
     
   In col-lg:
-  <img src="col-lg.png" alt="image"/>
+  <img src="col-lg.PNG" alt="image"/>
 
   
   In col-md:
-   <img src="col-md.png" alt="image"/>
+   <img src="col-md.PNG" alt="image"/>
    
    col-sm:
-    <img src="col-sm.png" alt="image"/>
+    <img src="col-sm.PNG" alt="image"/>
   
 
 

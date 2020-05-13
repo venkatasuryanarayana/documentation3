@@ -42,9 +42,6 @@ More then 1200px | col-xl-*
 ## Grid:
 <img src="grid table.png" alt="Grid image"/>
 
- 
-
-
 
 ## Example
 col-sm-*:
@@ -84,14 +81,15 @@ code:
   </div>
 </div>
   </body>
-</html>```
+</html>
+```
 
  * The above example creates three equal-width columns on small, medium,      large, and extra large devices using our predefined grid classes. Those    columns are centered in the page with the parent .container.
  
 ## Equal-width multi-line
 * Create equal-width columns that span multiple lines by inserting a .w-100 where you want the columns to break to a new line. Make the breaks responsive by mixing .w-100 with some responsive display utilities.
 
-<div class="container">
+```<div class="container">
   <div class="row">
     <div class="col">col</div>
     <div class="col">col</div>
@@ -100,6 +98,7 @@ code:
     <div class="col">col</div>
   </div>
 </div>
+```
 
 ## Responsive classes
 * Bootstrap’s grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.
@@ -107,7 +106,7 @@ code:
 ## All breakpoints
  * For grids that are the same from the smallest of devices to the largest, use the .col and .col-* classes. Specify a numbered class when you need a particularly sized column; otherwise, feel free to stick to .col.
  
- <div class="container">
+ ```<div class="container">
   <div class="row">
     <div class="col">col</div>
     <div class="col">col</div>
@@ -119,11 +118,12 @@ code:
     <div class="col-4">col-4</div>
   </div>
 </div>
+```
 
 ## Stacked to horizontal:
 * Using a single set of .col-sm-* classes, you can create a basic grid system that starts out stacked and becomes horizontal at the small breakpoint (sm).
 
-<div class="container">
+```<div class="container">
   <div class="row">
     <div class="col-sm-8">col-sm-8</div>
     <div class="col-sm-4">col-sm-4</div>
@@ -134,10 +134,11 @@ code:
     <div class="col-sm">col-sm</div>
   </div>
 </div>
+```
 
 
 
-<div class="row" style="justify-content:center">
+```<div class="row" style="justify-content:center">
       <div class="col-md-4 col-sm-8 col-lg-4">
         <div class="card">
           <div class="card-header bg-success text-light"> Card header</div>
@@ -151,10 +152,17 @@ code:
         <div class="card-footer">card footer</div>
      </div>
 </div>
+```
     
   In col-lg:
+  <img src="col-lg.png" alt="image"/>
+
   
   In col-md:
+   <img src="col-md.png" alt="image"/>
+   
+   col-sm:
+    <img src="col-sm.png" alt="image"/>
   
 
 

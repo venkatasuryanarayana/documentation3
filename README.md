@@ -51,7 +51,7 @@ col-sm-*:
 
 code:
 
-<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -84,7 +84,7 @@ code:
   </div>
 </div>
   </body>
-</html>
+</html>```
 
  * The above example creates three equal-width columns on small, medium,      large, and extra large devices using our predefined grid classes. Those    columns are centered in the page with the parent .container.
  
